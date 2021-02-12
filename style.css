@@ -1,0 +1,249 @@
+
+
+
+
+/*body*/
+
+body{
+    background-color: palegoldenrod;
+    font-family:'Trebuchet MS' , Arial, sans-serif;
+    width:80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left: auto;
+    
+
+}
+p{
+    width:650px;
+}
+#bloc_page{
+    width:500%;
+    margin-left:20%;
+}
+section h1, footer h1, footer h2, footer h3, nav a{
+    font-family: Dayron, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* header*/
+header{
+    background: url("/home/bentaleb/Downloads/images/separateur.png") repeat-x bottom;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 33px;
+    background-color: palegoldenrod;
+    width:90%;
+    margin-left: 120px;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+#titre{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+}
+
+
+img{
+    display:block;
+}
+#logo_img{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#logo{
+    margin-left:120px;
+    margin-top:30px;
+}
+
+header h1{
+    font-family: cursive;
+    float:initial;
+    font-size:2em;
+    font-weight:900;
+    margin-left:50px;
+    margin-top:-20px;
+    
+}
+
+header p{
+    font-family: Dayrom, cursive;
+    font-size:1.5em;
+    margin-top:-20px;
+    font-weight: normal;
+    margin-left:40px;
+
+}
+
+/*nav bars*/
+
+nav ul{
+    width: 400px;
+    text-align:justify;
+    margin-top:20%;
+    margin-right:80px;
+
+}
+/* Using "display:inline;" helps to build a horizontal navbar*/
+nav li {
+    display:inline;
+
+}
+/*Using hover to change the link color once you are on it */
+nav li a:hover {
+    background-color: greenyellow
+  }
+  nav a{
+      font-size: 1.5em;
+      padding-bottom: 3px;
+      text-decoration: none;
+    
+  }
+  
+  
+  /*Bannière img*/
+  #banniere{
+      margin-top: 15px;
+      position: relative;
+      margin-bottom:25px;
+      width: 76%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px 10px 10px;
+  }
+
+  #trip_description{
+      position:absolute;
+      font-family: Arial, Helvetica, sans-serif;
+      bottom: 0;
+      border-radius: 0px 0px 5px 5px;
+      width:80%;
+      height: 25px;
+      padding-top: 15px;
+      padding-left:4px;
+      color: white;
+      font-size: 0.7em;
+      background-color: rgba(24,24,24,0,8);
+  }
+  .bouton-rouge{
+      border-radius: 5px;
+      border: 1px solide red;
+      color:black;
+      background-color: palegoldenrod;
+      bottom:5px;
+      right:3px;
+      position:absolute;
+      text-align: center;
+      padding: 3px 8px 0px 8px;
+      text-decoration: none;
+      padding-right:10px;
+  }
+  .bouton-rouge:hover{
+      background-color: palegoldenrod;
+  }
+  /* Corps of the page*/
+  section{
+      margin-bottom: 20px;
+
+  }
+  article, aside{
+      text-align: justify;
+  }
+ aside{
+     float:right;
+     background-color: gray;
+     padding: 50px;
+     border-radius: 20px;
+     width:25%;
+     margin-top:-42%;
+     margin-right: 60px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 3px;
+
+ }
+ aside h2{
+    text-align:justify;
+    margin-top:-25px;
+}
+aside p{
+    text-align: justify;
+    width:80%;
+    margin-left: 10%;
+}
+#zozor_img{
+    margin-left:20%;
+    margin-right:auto;
+    width:40%;
+}
+
+aside img{
+    display: inline;
+    margin-right: 15px;;
+}
+ article h1{
+     margin-left: 10%; 
+     margin-top: -20px;
+ }
+ article p{
+     margin-left:5%;
+     width: 625px;
+ }
+ article{
+     margin-left: 7%;
+     margin-right: 10px;
+     background-color: palegoldenrod;
+     padding-bottom: 10px;
+ }
+footer{
+    background: url("/home/bentaleb/Downloads/images/separateur.png") repeat-x top, 
+    url("/home/bentaleb/Downloads/images/ombre.png") repeat-x top, url("/home/bentaleb/Downloads/images/ico_top.png") no-repeat top center; padding-top :30px;
+    display:flex;
+    background-color: palegoldenrod;
+    margin-bottom:5%;
+}
+
+ footer h1, footer h2, footer h3{
+     font-size: 1.1em;
+}
+ footer p, footer ul{
+font-size: 0.8em;
+ }
+#Mes_Tweet{
+    width: 28%;
+    margin-left: 10%;
+}
+#Photo img{
+    display: inline;
+}
+#Photo{
+    margin-left: 1%;
+
+}
+#Amis{
+    margin-left:10%;
+}
+
+#list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left:-7%;
+    margin-right: -4%;
+    text-decoration: none;
+    
+}
+#list ul{
+    padding-left: 2px;
+    list-style-image: url("/home/bentaleb/Downloads/images/ico_liensexterne.png");
+}
+#list a{
+    text-decoration: none;
+    color: #760001;
+    
+}
